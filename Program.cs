@@ -6,7 +6,7 @@ namespace FunWith.NET5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("WHy won't this commit?");
         }
     }
 }
