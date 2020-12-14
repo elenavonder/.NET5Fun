@@ -16,7 +16,13 @@ namespace FunWith.NET5
                 $"Section: {this.Section}, InstructorId:{this.InstructorId}");
         }
 
-
+        public Class(string subject, int section, int? instructorId)
+        {
+            this.Id = NextId++;
+            this.Subject = subject;
+            this.Section = section;
+            this.InstructorId = instructorId;
+        }
         public Class()
         {
         }
