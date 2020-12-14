@@ -12,8 +12,11 @@ namespace FunWith.NET5
 
         public void print()
         {
-
+            Console.WriteLine($"Class: Id: {this.Id}, Subject: {this.Subject}," +
+                $"Section: {this.Section}, InstructorId:{this.InstructorId}");
         }
+
+
         public Class()
         {
         }
