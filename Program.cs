@@ -12,6 +12,12 @@ namespace FunWith.NET5
             var cls2 = new Class("Basket Weaving", 901, null);
             Console.WriteLine($"{cls2.Id}, {cls2.Subject}");
 
+            var Business = new Major();
+            Business.Id = 1;
+            Business.Description = "General Busniess";
+            Business.SetMinSAT(900);
+
+            
 
         }
     }
