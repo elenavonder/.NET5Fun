@@ -17,7 +17,14 @@ namespace FunWith.NET5
             Business.Description = "General Busniess";
             Business.SetMinSAT(900);
 
-            
+            var Accounting = new Major();
+            Accounting.Id = 2;
+            Accounting.Description = "Accounting for Beginners";
+            Accounting.SetMinSAT(1300);
+
+            var BasketWeaving = new Major(3, "Basket Weaving", 600);
+
+            Console.WriteLine($"minsat is {BasketWeaving.MinSAT}");
 
         }
     }
