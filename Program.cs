@@ -8,6 +8,11 @@ namespace FunWith.NET5
         {
             var cls1 = new Class("English", 101, null);
             Console.WriteLine($"{cls1.Id}, {cls1.Subject}");
+
+            var cls2 = new Class("Basket Weaving", 901, null);
+            Console.WriteLine($"{cls2.Id}, {cls2.Subject}");
+
+
         }
     }
 }
