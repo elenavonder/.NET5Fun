@@ -26,6 +26,17 @@ namespace FunWith.NET5
 
             Console.WriteLine($"minsat is {BasketWeaving.MinSAT}");
 
+            var std1 = new Student();
+            std1.Id = 1;
+            std1.Firstname = "Zachary";
+            std1.Lastname = "Smith";
+            std1.GPA = 3.0;
+            std1.SAT = 1300;
+            std1.MajorId = BasketWeaving.Id;
+            std1.Major = BasketWeaving;
+
+            Console.WriteLine($"Name is " +
+                $"{std1.Fullname()} majors in {std1.Major.Description}");
         }
     }
 }
