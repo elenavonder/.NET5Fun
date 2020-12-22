@@ -35,6 +35,10 @@ namespace FunWith.NET5
             std1.MajorId = BasketWeaving.Id;
             std1.Major = BasketWeaving;
 
+            var std2 = new Student();
+            std2.Id = 2;
+
+
             Console.WriteLine($"Name is " +
                 $"{std1.Fullname()} majors in {std1.Major.Description}");
         }
