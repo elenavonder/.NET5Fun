@@ -37,7 +37,12 @@ namespace FunWith.NET5
 
             var std2 = new Student();
             std2.Id = 2;
-
+            std2.Firstname = "Megan";
+            std2.Lastname = "Louise";
+            std2.GPA = 3.5;
+            std2.SAT = 1200;
+            std2.MajorId = Business.Id;
+            std2.Major = Business;
 
             Console.WriteLine($"Name is " +
                 $"{std1.Fullname()} majors in {std1.Major.Description}");
