@@ -46,6 +46,8 @@ namespace FunWith.NET5
 
             Console.WriteLine($"Name is " +
                 $"{std1.Fullname()} majors in {std1.Major.Description}");
+
+
         }
     }
 }
