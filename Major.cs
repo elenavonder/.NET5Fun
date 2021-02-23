@@ -6,6 +6,7 @@ namespace FunWith.NET5
         public int Id { get; set; }
         public string Description { get; set; }
         public int MinSAT { get; set; }
+        // Methodss
 
         public void SetMinSAT(int minsat)
         {
