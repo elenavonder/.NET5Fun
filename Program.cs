@@ -50,7 +50,7 @@ namespace FunWith.NET5
             var Psychology = new Major();
             Psychology.Id = 4;
             Psychology.Description = "Psychology 101";
-            Psychology
+            Psychology.SetMinSAT(1200);
         }
     }
 }
