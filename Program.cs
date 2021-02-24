@@ -56,6 +56,7 @@ namespace FunWith.NET5
             std3.Id = 3;
             std3.Firstname = "Jo";
             std3.Lastname = "Gallagher";
+            std3.GPA = 2.8;
            
         }
     }
