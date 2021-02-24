@@ -51,6 +51,9 @@ namespace FunWith.NET5
             Psychology.Id = 4;
             Psychology.Description = "Psychology 101";
             Psychology.SetMinSAT(1200);
+
+            var std3 = new Student();
+            std3.Id = 3;
         }
     }
 }
