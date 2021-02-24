@@ -54,6 +54,9 @@ namespace FunWith.NET5
 
             var std3 = new Student();
             std3.Id = 3;
+            std3.Firstname = "Jo";
+            std3.Lastname = "Gallagher";
+           
         }
     }
 }
