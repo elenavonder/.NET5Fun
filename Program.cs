@@ -58,6 +58,8 @@ namespace FunWith.NET5
             std3.Lastname = "Gallagher";
             std3.GPA = 2.8;
             std3.SAT = 1250;
+
+
            
         }
     }
