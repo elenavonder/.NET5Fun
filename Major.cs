@@ -6,7 +6,7 @@ namespace FunWith.NET5
         public int Id { get; set; }
         public string Description { get; set; }
         public int MinSAT { get; set; }
-        // Methodss
+        // Methods
 
         public void SetMinSAT(int minsat)
         {
@@ -25,7 +25,8 @@ namespace FunWith.NET5
             this.MinSAT = MinSAT = 400;
             this.SetMinSAT(MinSAT);
         }
-        
+
+        //constructor
         public Major()
         {
         }
