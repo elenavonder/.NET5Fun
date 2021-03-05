@@ -10,6 +10,7 @@ namespace FunWith.NET5
         public int Section { get; set; }
         public int? InstructorId { get; set; }
 
+        //method
         public void print()
         {
             Console.WriteLine($"Class: Id: {this.Id}, Subject: {this.Subject}," +

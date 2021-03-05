@@ -12,11 +12,14 @@ namespace FunWith.NET5
         public int? MajorId { get; set; }
         public Major Major { get; set; }
 
+        //method
         public string Fullname()
         {
             var fullname = $"{this.Lastname}, {this.Firstname}";
             return fullname;
         }
+
+        //constructor
         public Student()
         {
         }
