@@ -24,6 +24,8 @@ namespace FunWith.NET5
             this.Section = section;
             this.InstructorId = instructorId;
         }
+
+        //constructor
         public Class()
         {
         }
