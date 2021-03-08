@@ -62,7 +62,7 @@ namespace FunWith.NET5
             var PhysicalTherapy = new Major();
             PhysicalTherapy.Id = 7;
             PhysicalTherapy.Description = "DPT";
-           
+            PhysicalTherapy.SetMinSAT(1400);
         }
     }
 }
