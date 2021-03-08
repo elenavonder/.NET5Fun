@@ -60,6 +60,8 @@ namespace FunWith.NET5
             std3.SAT = 1250;
 
             var PhyscialTherapy = new Major();
+            PhyscialTherapy.Id = 7;
+            
            
         }
     }
