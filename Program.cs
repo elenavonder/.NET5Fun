@@ -59,9 +59,9 @@ namespace FunWith.NET5
             std3.GPA = 2.8;
             std3.SAT = 1250;
 
-            var PhyscialTherapy = new Major();
-            PhyscialTherapy.Id = 7;
-            
+            var PhysicalTherapy = new Major();
+            PhysicalTherapy.Id = 7;
+            PhysicalTherapy.Description = "DPT";
            
         }
     }
